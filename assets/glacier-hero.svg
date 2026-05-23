@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Stylized glacier research field scene">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7edf0"/>
+      <stop offset="0.45" stop-color="#b7d7d8"/>
+      <stop offset="1" stop-color="#6f9997"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8ffff"/>
+      <stop offset="0.42" stop-color="#bfe4e8"/>
+      <stop offset="1" stop-color="#5f9da7"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f7e76"/>
+      <stop offset="1" stop-color="#283b39"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1260" cy="170" r="130" fill="#fff3bd" opacity="0.55" filter="url(#soft)"/>
+  <path d="M0 430 L180 275 L315 380 L485 210 L720 430 Z" fill="#edf8f7"/>
+  <path d="M260 440 L550 170 L820 445 Z" fill="#f9ffff"/>
+  <path d="M640 450 L890 245 L1100 440 Z" fill="#e8f5f2"/>
+  <path d="M910 445 L1180 190 L1600 455 Z" fill="#f6ffff"/>
+  <path d="M0 520 L240 405 L390 475 L590 330 L820 520 Z" fill="url(#rock)" opacity="0.72"/>
+  <path d="M780 520 L1010 390 L1170 460 L1600 350 L1600 900 L0 900 L0 640 Z" fill="#294845" opacity="0.84"/>
+  <path d="M70 620 C300 555 420 625 590 560 C780 488 950 570 1150 505 C1340 445 1475 500 1600 470 L1600 900 L0 900 L0 650 Z" fill="url(#ice)"/>
+  <path d="M90 700 C310 645 470 700 685 625 C900 552 1090 635 1530 535" fill="none" stroke="#eefbfc" stroke-width="26" opacity="0.68"/>
+  <path d="M0 790 C250 720 530 830 820 725 C1110 620 1290 720 1600 630 L1600 900 L0 900 Z" fill="#dff4f4" opacity="0.68"/>
+  <path d="M185 720 L360 666 L530 690 L705 620 L900 640 L1080 600 L1370 560" fill="none" stroke="#438996" stroke-width="5" opacity="0.42"/>
+  <path d="M210 760 L470 710 L780 740 L1120 665 L1430 690" fill="none" stroke="#2e6f79" stroke-width="4" opacity="0.34"/>
+  <g opacity="0.9">
+    <circle cx="1040" cy="665" r="11" fill="#edc04f"/>
+    <path d="M1040 676 L1038 720" stroke="#173030" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1037 690 L1018 707 M1043 690 L1066 705" stroke="#173030" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1038 720 L1018 754 M1040 720 L1062 752" stroke="#173030" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1080 650 L1080 760" stroke="#f5f7f5" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1080 650 L1116 668" stroke="#f5f7f5" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.7">
+    <path d="M1220 610 L1310 585 L1375 610 L1305 635 Z" fill="#183331"/>
+    <path d="M1255 608 L1308 595 L1340 610 L1300 622 Z" fill="#f0c24b"/>
+  </g>
+</svg>
